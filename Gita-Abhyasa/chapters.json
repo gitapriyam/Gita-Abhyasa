@@ -1,0 +1,25 @@
+{
+  "chapters": [
+    { "id": 0,  "english": "Dhyanam",    "sanskrit": "ध्यानम्",            "slokaCount": 9 },
+    { "id": 1,  "english": "Chapter-01", "sanskrit": "प्रथमः अध्यायः",     "slokaCount": 47 },
+    { "id": 2,  "english": "Chapter-02", "sanskrit": "द्वितीयः अध्यायः",    "slokaCount": 72 },
+    { "id": 3,  "english": "Chapter-03", "sanskrit": "तृतीयः अध्यायः",      "slokaCount": 43 },
+    { "id": 4,  "english": "Chapter-04", "sanskrit": "चतुर्थः अध्यायः",      "slokaCount": 42 },
+    { "id": 5,  "english": "Chapter-05", "sanskrit": "पञ्चमः अध्यायः",       "slokaCount": 29 },
+    { "id": 6,  "english": "Chapter-06", "sanskrit": "षष्ठः अध्यायः",        "slokaCount": 47 },
+    { "id": 7,  "english": "Chapter-07", "sanskrit": "सप्तमः अध्यायः",       "slokaCount": 30 },
+    { "id": 8,  "english": "Chapter-08", "sanskrit": "अष्टमः अध्यायः",       "slokaCount": 28 },
+    { "id": 9,  "english": "Chapter-09", "sanskrit": "नवमः अध्यायः",        "slokaCount": 34 },
+    { "id": 10, "english": "Chapter-10", "sanskrit": "दशमः अध्यायः",       "slokaCount": 42 },
+    { "id": 11, "english": "Chapter-11", "sanskrit": "एकादशः अध्यायः",     "slokaCount": 55 },
+    { "id": 12, "english": "Chapter-12", "sanskrit": "द्वादशः अध्यायः",     "slokaCount": 20 },
+    { "id": 13, "english": "Chapter-13", "sanskrit": "त्रयोदशः अध्यायः",   "slokaCount": 35 },
+    { "id": 14, "english": "Chapter-14", "sanskrit": "चतुर्दशः अध्यायः",    "slokaCount": 27 },
+    { "id": 15, "english": "Chapter-15", "sanskrit": "पञ्चदशः अध्यायः",     "slokaCount": 20 },
+    { "id": 16, "english": "Chapter-16", "sanskrit": "षोडशः अध्यायः",       "slokaCount": 24 },
+    { "id": 17, "english": "Chapter-17", "sanskrit": "सप्तदशः अध्यायः",     "slokaCount": 28 },
+    { "id": 18, "english": "Chapter-18", "sanskrit": "अष्टादशः अध्यायः",    "slokaCount": 78 },
+    { "id": 19, "english": "Mahatmyam",  "sanskrit": "महात्म्यम्",           "slokaCount": 22 }
+  ],
+  "apiBaseUrl": "/api"
+}
