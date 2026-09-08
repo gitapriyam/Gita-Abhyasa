@@ -13,7 +13,7 @@ struct ChapterRowView: View {
         switch language {
         case .english:
             return chapter.sanskrit
-        case .sanskrit:
+        case .sanskrit, .sanskritSandhi:
             return chapter.english
         }
     }

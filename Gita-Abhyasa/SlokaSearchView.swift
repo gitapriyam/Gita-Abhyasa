@@ -112,6 +112,7 @@ public struct SlokaSearchView: View {
 
     @State private var searchText = ""
     @State private var selectedLanguage: ContentLanguage
+    private let searchableLanguages: [ContentLanguage] = [.english, .sanskrit]
     @State private var resultLimit = 10
     @State private var results: [SlokaSearchResult] = []
     @State private var isSearching = false
@@ -122,7 +123,7 @@ public struct SlokaSearchView: View {
     private let resultLimits = [10, 20]
 
     public init(language: ContentLanguage = .english) {
-        _selectedLanguage = State(initialValue: language)
+        _selectedLanguage = State(initialValue: language.usesSandhiContent ? .sanskrit : language)
     }
 
     private var searchField: some View {
@@ -169,7 +170,7 @@ public struct SlokaSearchView: View {
                 List {
                     Section {
                         Picker("Language", selection: $selectedLanguage) {
-                            ForEach(ContentLanguage.allCases) { language in
+                            ForEach(searchableLanguages) { language in
                                 Text(language.displayName).tag(language)
                             }
                         }
@@ -459,6 +460,8 @@ private extension KeyedDecodingContainer {
     }
 }
 
-#Preview {
-    SlokaSearchView()
+struct SlokaSearchView_Previews: PreviewProvider {
+    static var previews: some View {
+        SlokaSearchView()
+    }
 }
