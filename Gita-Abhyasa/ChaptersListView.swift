@@ -78,8 +78,10 @@ public struct ChaptersListView: View {
     }
 }
 
-#Preview {
-    NavigationStack {
-        ChaptersListView()
+struct ChaptersListView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationStack {
+            ChaptersListView()
+        }
     }
 }
